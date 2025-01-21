@@ -221,4 +221,10 @@ section{
         align-items: center;
         text-align: center;
     }
+    .curriculum-container{
+        flex-direction: column;
+    }
+    .curriculum{
+        font-size: 30px;
+    }
 }
