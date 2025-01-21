@@ -106,56 +106,84 @@ header{
 }
 
 
+/* main section */
 
+main{
+    background-image: url(../assets/bg.png);
 
+    /* border: 2px solid aqua; */
+}
+section{
+    width: 90vw;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
 
+.curriculum{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 
+.curriculum-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.box-1, .box-2, .box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 18px;
+    padding: 53px 41px;
+}
+.box-1{
+    
+    background-image: linear-gradient(#DEF5FF, white);
+}
 
+.box-2{
+    background-image: linear-gradient(#FFF4DC, white);
+}
+.box-3{
+    background-image: linear-gradient(#F2E8FF, white);
+}
 
+.curriculum-box-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 32px;
+}
 
+.about-curriculum-box-title{
+    /* margin-top: 24px; */
+    line-height: 28.3px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 32px;
+}
 
+.curriculum-box-btn{
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;margin-top: 39px;
+    background-color: transparent;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box-btn-1{
+    color: #64C8FF;
+}
+.box-btn-2{
+    color: #F0AA00;
+}
+.box-btn-3 {
+    color: #8700FF;
+}
 
 
 
