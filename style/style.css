@@ -110,6 +110,9 @@ header{
 
 main{
     background-image: url(../assets/bg.png);
+    background-repeat: repeat;
+    
+
 
     /* border: 2px solid aqua; */
 }
@@ -140,6 +143,7 @@ section{
     align-items: center;
     border-radius: 18px;
     padding: 53px 41px;
+    box-shadow: 10px 10px 5px lightblue;
 }
 .box-1{
     
@@ -186,7 +190,11 @@ section{
 }
 
 
-
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
 
 
 
@@ -227,4 +235,8 @@ section{
     .curriculum{
         font-size: 30px;
     }
+    .icon{
+        display: none;
+    }
 }
+
