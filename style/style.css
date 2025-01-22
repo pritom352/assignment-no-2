@@ -110,15 +110,16 @@ header{
 
 main{
     background-image: url(../assets/bg.png);
-    background-repeat: repeat;
+    background-repeat: repeat-y;
+    
     
 
 
-    /* border: 2px solid aqua; */
+
 }
-section{
-    width: 90vw;
-    /* border: 1px solid red; */
+.first-section{
+    width: 85vw;
+    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -196,11 +197,167 @@ section{
     margin-top: 80px;
 }
 
+.scend-section{
+    border: 2px solid red;
+    
+    margin: 0 auto;
+    background-image: linear-gradient(#ffffff, #f3d197);
+    
+}
+
+.stories{
+    font-size: 2.9rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.stories-conteinar{
+    max-width: 85vw;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 25px;
+    border: 1px solid black;
+    
+}
+#box-1{
+    grid-row: span 2;
+}
+
+
+.storie-box-1, .storie-box-2, .storie-box-3, .storie-box-4, .storie-box-5{
+    border: 2px solid aqua;
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+#box-1 > img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    margin: 0px;
+}
+#box-1 > h5{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    /* margin: 0px; */
+}
+
+#box-1 > p{
+    color: #666666;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.storie-box-2 > img{
+    width: 100%;
+}
+.storie-box-3 > img{
+    width: 100%;
+}
+.storie-box-4 > img{
+    width: 100%;
+}
+.storie-box-5 > img{
+    width: 100%;
+}
+
+#box-1 > button{
+    color: white;
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 48px;
+    padding: 14px 18px;
+    
+    
+}
+#storie-btn{
+    position: relative;
+    left: 40px;
+    top: -28px;
+}
 
 
 
+.grid-img{
+    border-radius: 16px 16px 0px 0px;
+}
+#box-2{
+    font-weight: 500;
+    color: white;
+    padding: 9px 19px;
+    border: none;
+    border-radius: 47px;
+    background-color: #95B226;
+    position: relative;
+    top: -20px;
+    left: 38px;
+}
+#box-3{
+    font-weight: 500;
+    color: white;
+    padding: 9px 19px;
+    border: none;
+    border-radius: 47px;
+    background-color: #5D58F0;
+    position: relative;
+    top: -20px;
+    left: 38px;
 
+}
+#box-4{
+    font-weight: 500;
+    color: white;
+    padding: 9px 19px;
+    border: none;
+    border-radius: 47px;
+    background-color: #95B226;
+    position: relative;
+    top: -20px;
+    left: 38px;
+}
+#box-5{
+    font-weight: 500;
+    color: white;
+    padding: 9px 19px;
+    border: none;
+    border-radius: 47px;
+    background-color: #95B226;
+    position: relative;
+    top: -20px;
+    left: 38px;
+}
 
+.grid-title{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    /* margin: 10px 60px 20px 20px; */
+    margin: 0px 16px;
+}
+
+.storie-box-1, .storie-box-2, .storie-box-3, .storie-box-4, .storie-box-5{
+    background-color: #ffffff;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-btn{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px 55px;
+    border-radius: 14px;
+    margin: 60px 0px;
+}
 
 
 
