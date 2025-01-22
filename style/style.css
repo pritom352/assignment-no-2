@@ -198,9 +198,9 @@ main{
 }
 
 .scend-section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
-    margin: 0 auto;
+    
     background-image: linear-gradient(#ffffff, #f3d197);
     
 }
@@ -395,5 +395,27 @@ main{
     .icon{
         display: none;
     }
+
+    .storie-box-1{
+        display: none;
+    }
+    .stories-conteinar{
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #box-2, #box-3, #box-4, #box-5{
+        background-color: #05D4DF;
+        padding: 5px 8px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .grid-title{
+        font-size: 8px;
+        font-weight: normal;
+    }
+    .stories-conteinar{
+        gap: 5px;
+    }
+
 }
 
