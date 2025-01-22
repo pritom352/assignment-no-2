@@ -109,7 +109,7 @@ main{
     margin: 0 auto;
 }
 .curriculum{
-    font-size: 46px;
+    font-size: 2.85rem;
     font-weight: bold;
     text-align: center;
     margin-top: 32px;
@@ -139,7 +139,7 @@ main{
     background-image: linear-gradient(#F2E8FF, white);
 }
 .curriculum-box-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0px;
     margin-top: 32px;
@@ -198,7 +198,7 @@ main{
     margin: 0px;
 }
 #box-1 > h5{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
